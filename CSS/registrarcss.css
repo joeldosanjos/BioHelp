@@ -1,0 +1,56 @@
+body {
+    background-image:  url("../Img/background.jpg");
+    background-attachment:fixed;
+    background-repeat: cover;
+    position: relative;
+}
+.wrapper {
+	  display: table;
+	margin: 4 auto;
+    	  min-width: 40%;
+}
+.login {
+    float: left;
+    	  min-width: 80%;
+  border-radius: 2px 2px 5px 5px;
+  padding: 10px 20px;
+  background: #d6d2ba;
+  position: relative;
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.login input {
+  display: block;
+  font-family:arial;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  transition: border-width 0.2s ease;
+  border-radius: 2px;
+  color: #228B22;
+}
+
+.login input:focus {
+	font-family:arial;
+  outline: none;
+  color: #228B22;
+  border-color: #228B22;
+  border-left-width: 35px;
+}
+
+.login a {
+	font-family:arial;
+  font-size: 0.8em;
+  color: #228B22;
+  text-decoration: none;
+}
+.login .title {
+  color: #228B22;
+  font-family:Helvetica;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0 30px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}

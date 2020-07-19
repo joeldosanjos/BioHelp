@@ -1,0 +1,82 @@
+<html>
+
+<head>
+
+    <title> Minha Conta - BioHelp </title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/contacss.css">
+    <link rel="icon" href="../Img/poppy.png">
+
+</head>
+
+<body>
+
+    <div class = "meio">
+
+        <div class= "topo">
+            <a href = "../index.html">
+                <img alt = "BIOHELP" class="slogan" src="../Img/slogan.png" align = "right">
+            </a>
+        </div>
+
+
+        <div class = "menu">
+            <div class= "home">
+               <a href='../index.html' class='button'>Início</a>
+            </div>
+
+            <div class = "conta">
+                <a href='conta.html' class='button'>Conta</a>
+            </div>
+
+            <div class = "contatos">
+                <a href='contatos.html' class='button'>Contato</a>
+            </div>
+
+            <div class= "guia">
+                <a href='guia.html' class='button'>Guia</a>
+            </div>
+        </div>
+
+
+        <div class = "meio">
+            <div class = "fundomeio">
+                <br> <br>
+
+                <div class = "titulo">
+                    <h3 class = "aviso">Você precisa logar antes de acessar esta página</h3>
+                </div>
+
+                    <div class="wrapper" align = "center">
+                        <form class="login" method="post" action="redirecionarlogin.php">
+                            <p class="title">Log in</p>
+                            <p style="font-family: arial">Tipo de conta: <select name="tipo">
+                             <option value="comum">Usuário padrão</option>
+                            <option value="guarda">Guarda florestal</option>
+                             <option value="adm">Administrador</option>
+                            </select></p>
+                            <br>
+                            <a rel="nofollow" rel="noreferrer"href="recuperar.php">Esqueceu a senha? </a>
+                            <a rel="nofollow" rel="noreferrer"href="#"> --</a>
+                            <a rel="nofollow" rel="noreferrer"href="registrar.php">Registrar</a>
+                            <button>
+                                <i class="spinner"></i>
+                                <span class="state">Ir para página de login</span>
+                            </button>
+                        </form>
+                    </div> <br>
+
+            </div>
+        </div>
+
+
+        <div class = "rodape">
+            <br>
+            <h3> © 2016 - 2017 BIOHELP </h3>
+        </div>
+
+                </div>
+
+</body>
+
+</html>

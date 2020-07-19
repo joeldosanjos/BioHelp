@@ -1,0 +1,75 @@
+<html>
+
+<head>
+
+    <title> Minha Conta - BioHelp </title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/contacss.css">
+    <link rel="icon" href="../Img/poppy.png">
+
+</head>
+
+<body>
+
+    <div class = "meio">
+
+        <div class= "topo">
+            <a href = "../index.html">
+                <img alt = "BIOHELP" class="slogan" src="../Img/slogan.png" align = "right">
+            </a>
+        </div>
+
+
+        <div class = "menu">
+            <div class= "home">
+               <a href='../index.html' class='button'>Início</a>
+            </div>
+
+            <div class = "conta">
+                <a href='conta.html' class='button'>Conta</a>
+            </div>
+
+            <div class = "contatos">
+                <a href='contatos.html' class='button'>Contato</a>
+            </div>
+
+            <div class= "guia">
+                <a href='guia.html' class='button'>Guia</a>
+            </div>
+        </div>
+
+
+        <div class = "meio">
+            <div class = "fundomeio">
+                <br> <br> <br> <br> <br>
+
+                    <div class="wrapper" align = "center">
+                        <form class="login" method="post" action="../PHP/comumuserauthentication.php">
+                            <p class="title">Log in Comum</p>
+                            <br>
+                            <input type="text" name="login" placeholder="Conta" autofocus/>
+                            <i class="fa fa-user"></i>
+                            <input type="password" name="senha" placeholder="Senha" />
+                            <i class="fa fa-key"></i> <br>
+                            <a rel="nofollow" rel="noreferrer"href="../PHP/registrar.php">Registrar</a>
+                            <button type = "submit">
+                                <i class="spinner"></i>
+                                <span class="state">Logar</span>
+                            </button>
+                        </form>
+                    </div> <br>
+
+            </div>
+        </div>
+
+
+        <div class = "rodape">
+            <br>
+            <h3> © 2016 - 2017 BIOHELP </h3>
+        </div>
+
+                </div>
+
+</body>
+
+</html>
